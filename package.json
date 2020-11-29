@@ -1,0 +1,23 @@
+{
+  "name": "demoapi.blockdev.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paul-ridgway/demoapi.blockdev.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paul-ridgway/demoapi.blockdev.io/issues"
+  },
+  "homepage": "https://github.com/paul-ridgway/demoapi.blockdev.io#readme",
+  "devDependencies": {
+    "serverless": "^2.13.0",
+    "serverless-domain-manager": "^5.1.0"
+  }
+}
