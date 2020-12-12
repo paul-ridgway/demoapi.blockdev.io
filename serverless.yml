@@ -12,6 +12,10 @@ provider:
   apiGateway:
     shouldStartNameWithService: true
 
+package:
+  include:
+    - src/**
+
 custom:
   customDomain:
     domainName: demoapi.blockdev.io
@@ -20,10 +24,11 @@ custom:
 
 plugins:
   - serverless-domain-manager
+  - serverless-plugin-typescript
 
 functions:
   api:
-    handler: api.handler
+    handler: src/api.handler
     events:
       - http:
           path: 'v1/{path+}'
